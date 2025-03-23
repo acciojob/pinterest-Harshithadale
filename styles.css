@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+.name{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.image{
+	width:400px;
+	height:300px;
+	object-fit:cover;
+}
+button{
+	background-color:red;
+	border-radius:10px;
+	color:white;
+	padding:10px;
+	border-style:groove;
+}
+.card{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	padding:10px;
+	text-align:center;
+}
+p{
+	color:grey;
+}
